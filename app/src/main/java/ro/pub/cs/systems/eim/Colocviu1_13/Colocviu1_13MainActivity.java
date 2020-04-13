@@ -21,7 +21,7 @@ public class Colocviu1_13MainActivity extends AppCompatActivity {
         if (savedInstanceState != null)
             pressedNo = savedInstanceState.getInt("PRESSED_NO");
 
-        Log.println(0, "DEBUG", "This is" + pressedNo.toString());
+        Log.d("PRINTNO", "This is" + pressedNo.toString());
 
         final Button north = findViewById(R.id.northBtn);
         Button south = findViewById(R.id.southBtn);
