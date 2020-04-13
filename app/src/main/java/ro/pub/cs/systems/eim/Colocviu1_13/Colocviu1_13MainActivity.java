@@ -79,6 +79,11 @@ public class Colocviu1_13MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
+
+        // D.1
+        Intent intent = new Intent(this, Colocviu1_13Service.class);
+        intent.putExtra("CARDINAL_MSG", cardinal.getText().toString());
+        startService(intent);
     }
 
     @Override

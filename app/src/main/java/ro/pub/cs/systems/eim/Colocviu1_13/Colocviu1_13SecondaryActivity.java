@@ -21,7 +21,7 @@ public class Colocviu1_13SecondaryActivity extends AppCompatActivity {
 
         EditText cardinalView = findViewById(R.id.cardinalSecText);
         cardinalView.setKeyListener(null);
-        
+
         if (cardinalStr != null)
             cardinalView.setText(cardinalStr);
 
