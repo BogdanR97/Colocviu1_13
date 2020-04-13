@@ -15,7 +15,7 @@ public class ProcessingThread extends Thread {
 
     @Override
     public void run() {
-        Log.d("THREAD", "Will send msg after 5 sec");
+        Log.d("THREAD", "Will send msg after 5 sec: " + cardinalMsg);
         sleep();
         sendMessage(cardinalMsg);
     }
