@@ -31,6 +31,7 @@ public class Colocviu1_13MainActivity extends AppCompatActivity {
         Button east = findViewById(R.id.eastBtn);
         Button west = findViewById(R.id.westBtn);
         final EditText cardinal = findViewById(R.id.cardinalText);
+        cardinal.setKeyListener(null);
 
         Button navigator = findViewById(R.id.navigateBtn);
 
